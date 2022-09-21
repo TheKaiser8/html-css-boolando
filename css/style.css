@@ -25,20 +25,20 @@
     height: 50px;
     border: 1px solid;
 } */
-.debug footer {
+/* .debug footer {
     height: 80px;
     background-color: black;
-}
-.debug .nav-copyright {
+} */
+/* .debug .nav-copyright {
     height: 70px;
     background-color: red;
     border: 1px solid;
-}
-.debug .nav-social {
+} */
+/* .debug .nav-social {
     height: 70px;
     background-color: green;
     border: 1px solid;
-}
+} */
 
 /*------------
     TYPOGRAPHY
@@ -157,13 +157,36 @@ article:last-child .box-plus {
 --------------*/
 footer {
     border-bottom: 1px solid white;
+    color: white;
+    background-color: black;
 }
 footer .row {
     justify-content: space-between;
 }
 .nav-copyright {
-    width: 30%;
+    width: 40%;
+    font-size: 22px;
+    padding: 30px 0;
+}
+.nav-copyright ul {
+    list-style: none;
+    display: flex;
+}
+.nav-copyright ul li, .name-company {
+    margin: 0 5px;
+}
+.nav-copyright ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
 }
 .nav-social {
     width: 20%;
+    font-size: 18px;
+    text-align: right;
+    padding: 30px 0;
+}
+.nav-social a i {
+    margin: 10px 2px;
+    color: white;
 }
