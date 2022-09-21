@@ -17,6 +17,10 @@
 .debug header .row {
     height: 70px;
 }
+.debug section .col {
+    height: 500px;
+    background-color: lightgrey;
+}
 /*------------
     TYPOGRAPHY
 --------------*/
@@ -74,6 +78,21 @@ header .row {
 /*------------
     MAIN
 --------------*/
+section .row {
+    flex-wrap: wrap;
+}
+.col {
+    width: calc(100% / 3 - 20px);
+    margin: 50px 10px;
+}
+.box-image {
+    height: 450px;
+    border: 1px solid;
+}
+.text-image {
+    height: 50px;
+    border: 1px solid;
+}
 
 /*------------
     FOOTER
