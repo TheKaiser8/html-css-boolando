@@ -21,6 +21,21 @@
     height: 500px;
     background-color: lightgrey;
 }
+.debug footer {
+    height: 80px;
+    background-color: black;
+}
+.debug .nav-copyright {
+    height: 70px;
+    background-color: red;
+    border: 1px solid;
+}
+.debug .nav-social {
+    height: 70px;
+    background-color: green;
+    border: 1px solid;
+}
+
 /*------------
     TYPOGRAPHY
 --------------*/
@@ -97,3 +112,15 @@ section .row {
 /*------------
     FOOTER
 --------------*/
+footer {
+    border-bottom: 1px solid white;
+}
+footer .row {
+    justify-content: space-between;
+}
+.nav-copyright {
+    width: 30%;
+}
+.nav-social {
+    width: 20%;
+}
