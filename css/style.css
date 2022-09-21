@@ -10,7 +10,13 @@
 /*------------
     DEBUG
 --------------*/
-
+.debug header {
+    height: 70px;
+    background-color: #ff6900;
+}
+.debug header .row {
+    height: 70px;
+}
 /*------------
     TYPOGRAPHY
 --------------*/
@@ -21,11 +27,50 @@ body {
 /*------------
     COMMON
 --------------*/
-
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
 /*------------
     HEADER
 --------------*/
-
+header {
+    color: white;
+}
+header .row {
+    align-items: center;
+}
+.nav-gender, .nav-tools {
+    width: 20%;
+}
+.logo {
+    width: 60%;
+    text-align: center;
+}
+.nav-gender ul {
+    list-style: none;
+    display: flex;
+}
+.nav-gender ul li {
+    margin: 0 5px;
+}
+.nav-gender ul li a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+.logo img {
+    height: 30px;
+}
+.nav-tools {
+    text-align: right;
+}
+.nav-tools a i {
+    color: white;
+}
 /*------------
     MAIN
 --------------*/
