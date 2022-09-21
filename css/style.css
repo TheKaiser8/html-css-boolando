@@ -18,7 +18,7 @@
     height: 70px;
 }
 .debug section .col {
-    height: 500px;
+    height: 550px;
     /* background-color: lightgrey; */
 }
 /* .debug .text-image {
@@ -105,8 +105,8 @@ section .row {
     margin: 50px 10px;
 }
 .box-image {
-    height: 450px;
-    border: 1px solid;
+    height: 500px;
+    position: relative;
 }
 .image-fluid {
     width: 100%;
@@ -120,7 +120,38 @@ section .row {
 .text-image span {
     text-decoration: line-through;
 }
-
+.box-discount, .box-plus {
+    display: inline-block;
+    line-height: 26px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 85%;
+}
+.box-discount {
+    width: 15%;
+    background-color: #ff0000;
+    left: 0;
+}
+.box-plus {
+    width: 30%;
+    background-color: #008000;
+    left: 16%;
+}
+.box-heart {
+    font-size: 32px;
+    display: inline-block;
+    position: absolute;
+    top: 2%;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    padding: 0 10px;
+}
+article:last-child .box-plus {
+    left: 0;
+}
 /*------------
     FOOTER
 --------------*/
